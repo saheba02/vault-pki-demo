@@ -1,8 +1,7 @@
 # vault-pki-demo
 This is fork of github.com/kaparora/vault-pki-demo
 by Kapil Arora
-https://www.youtube.com/watch?v=ZWaKF-UXtx8
-Hashicorp Vault PKI Secrets Engine Demo for Certificate Management
+
 
 ###########################################################
 https://www.youtube.com/watch?v=4cEWxROsgW4
@@ -241,4 +240,11 @@ so now whenever need to generate new cleint cert, just get login with auth metho
 set VAULT_TOKEN varibale
 and run vault write on pki_int/issue/example-dot-com and pass common_name which gives you crt 
 use this crt and split in key/ca/client file and use them in pem format and done.
+
+####################
+https://www.youtube.com/watch?v=ZWaKF-UXtx8
+Hashicorp Vault PKI Secrets Engine Demo for Certificate Management
+####################
+https://www.youtube.com/watch?v=bZ803OZabTg
+Advanced Data Protection With HashiCorp Vault masking/encryption for db
 
